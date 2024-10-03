@@ -2308,7 +2308,12 @@ padding-bottom: 60px;}
   .hiringbuttons{text-align: center;
   padding-bottom: 60px;}
 
-  .theteam{text-align: center;}
+  .theteam{text-align: center;
+  }
+  #jlc{background-color:#ffffff ;
+  margin: 0%;
+width: fi;}
+
 
   .CO{font-family: 'Plus Jakarta Sans';
     padding-top: 250px;
@@ -2968,4 +2973,203 @@ overflow-wrap: break-word;
 .haulageimage{
   padding-top: 300px;
 padding-left: 67px;
+}
+
+#al1{margin-left: 100px;}
+.AL{width: 280px;
+height: 386px;
+margin-left: 60px;
+margin-bottom: 20px;
+background-color: #ffffff;}
+
+.staffpicture{padding-top: 30px;}
+
+.staffname{padding-top: 40px;
+  font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--gray-600, #475467);
+}
+.workposition{padding-top: 10px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Plus Jakarta Sans';
+  color: #C0342B;}
+.additionaltext{padding-top:10px ;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Plus Jakarta Sans';
+  color: #4D5461;
+  word-wrap: break-word;
+}
+.stafficons{padding-top: 20px;}
+.firstrow{display: flex;
+flex-direction:row;}
+
+
+.secondrow{display: flex;
+  flex-direction:row;
+padding-top: 40px;}
+
+
+div#OPbeginning {
+  background-color: white;
+}
+.button-group {
+  margin-left:383px;
+ width: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* spacing between buttons */
+  opacity: 0.8;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f1f3f5;
+}
+
+.category-button {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: #5a6472;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.category-button.active {
+  background-color: white;
+  color: #323c47;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category-button:hover {
+  background-color: #e7ecef;
+}
+
+.category-button:focus {
+  outline: none;
+}
+
+
+
+
+
+/* Container styling for job listings */
+.job-listing {
+  border: 1px solid #e5e7eb;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  position: relative;
+  background-color: white;
+}
+
+/* Category and badge styles */
+.job-category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.category-title {
+  font-weight: bold;
+  font-size: 14px;
+  color: #d62c3e;
+}
+
+.category-badge {
+  padding: 4px 10px;
+  font-size: 12px;
+  background-color: #edf2f7;
+  color: #d62c3e;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+/* View job link styling */
+.view-job {
+  font-size: 12px;
+  font-weight: bold;
+  color: #d62c3e;
+  text-decoration: none;
+}
+
+.view-job span {
+  font-size: 10px;
+}
+
+/* Job title styling */
+.job-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #111827;
+  margin: 0 0 4px;
+}
+
+/* Job description styling */
+.job-description {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* Job meta details styling */
+.job-meta {
+  display: flex;
+  gap: 10px;
+}
+
+.job-meta span {
+  font-size: 14px;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+}
+
+/* Remote and Full-time icons can be added with appropriate margin or icons */
+.job-meta span::before {
+  content: "🌐"; /* Placeholder for icon, replace with actual icon if available */
+  margin-right: 4px;
+}
+
+/* Styling for specific categories - use different color schemes for each badge */
+.category-badge.Design {
+  background-color: #f3e8ff;
+  color: #9333ea;
+}
+
+.category-badge.Software {
+  background-color: #ffe4e6;
+  color: #d61f69;
+}
+
+.category-badge.CX {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.category-badge.Sales {
+  background-color: #e0e7ff;
+  color: #4338ca;
+}
+
+.category-badge.Marketing {
+  background-color: #ffedd5;
+  color: #ea580c;
+}
+
+
+
+
+.job-listings-container {background-color:#ffffff;
+  padding-top: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
