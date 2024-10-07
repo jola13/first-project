@@ -2572,11 +2572,16 @@ padding-left: 150px;
 
         .environmentcontainer{background-color:#C0342B;
         margin-top: 300px;
-      padding-top: 95px;}
+      padding-top: 95px;
+    padding-bottom: 20px;}
 
 
 
-      .missionandvission{text-align: center;}
+      .missionandvission{text-align: center;
+      display: flex;
+    flex-direction: row;
+  padding-left: 100px;
+padding-bottom: 100px;}
 
 
 .safety first{display: flex;
@@ -3061,20 +3066,21 @@ div#OPbeginning {
 
 
 
-/* Container styling for job listings */
+
+  /* Container styling for job listings */
 .job-listing {
   border: 1px solid #e5e7eb;
   padding: 16px;
   margin-bottom: 16px;
   border-radius: 12px;
-  position: relative;
+position: relative;
   background-color: white;
 }
 
 /* Category and badge styles */
 .job-category {
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
   margin-bottom: 8px;
 }
@@ -3085,43 +3091,103 @@ div#OPbeginning {
   color: #d62c3e;
 }
 
-.category-badge {
-  padding: 4px 10px;
+.category-badge1 {
+  padding: 6px 10px ;
+  margin-left:10px ;
+  font-size: 12px;
+  background-color: #eff8ff;
+  color: #175cd3;
+  border-radius: 12px;
+  font-weight: bold;
+justify-self: left;
+   border: solid  #175cd36f 1px;
+}
+
+.category-badge2 {
+  padding: 6px 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  background-color: #edf2f7;
+  color: #c11574;
+  border-radius: 12px;
+  font-weight: bold;
+  border: solid  #ee46bc98 1px;
+
+}
+.category-badge3 {
+  padding: 6px 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  background-color: #dcfce7;
+  color: #15803d;
+  border-radius: 12px;
+  font-weight: bold;
+  border: solid  #15803c3c 1px;}
+
+.category-badge4 {
+  padding: 6px 10px;
+  margin-left: 10px;
+  margin-left: 10px;
   font-size: 12px;
   background-color: #edf2f7;
   color: #d62c3e;
   border-radius: 12px;
   font-weight: bold;
+  background-color: #e0e7ff;
+  color: #4338ca;
+  border: solid #4438ca37 1px;
 }
-
-/* View job link styling */
+.category-badge5 {
+  padding: 6px 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  background-color: #edf2f7;
+  color: #d62c3e;
+  border-radius: 12px;
+  font-weight: bold;
+  background-color: #ffedd5;
+  color: #ea580c;
+  border: solid #ea5a0c58 1px;
+}
 .view-job {
   font-size: 12px;
   font-weight: bold;
   color: #d62c3e;
   text-decoration: none;
+  text-align: left;
+  margin: 0;
+  padding-top: 20px;
+  padding-right: 20px;
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  display: flex;
+  flex-direction: row;
+
 }
+.viewjobarrow{color: #d62c3e;}
 
 .view-job span {
   font-size: 10px;
 }
 
-/* Job title styling */
+
 .job-title {
   font-size: 20px;
   font-weight: bold;
   color: #111827;
   margin: 0 0 4px;
+  width: 618px;
+  height: 28px;
 }
 
-/* Job description styling */
 .job-description {
   color: #6b7280;
   font-size: 14px;
   margin-bottom: 8px;
+  text-align: left;
 }
 
-/* Job meta details styling */
 .job-meta {
   display: flex;
   gap: 10px;
@@ -3132,45 +3198,132 @@ div#OPbeginning {
   color: #6b7280;
   display: flex;
   align-items: center;
+  padding-top: 8px;
+
 }
 
-/* Remote and Full-time icons can be added with appropriate margin or icons */
-.job-meta span::before {
-  content: "🌐"; /* Placeholder for icon, replace with actual icon if available */
-  margin-right: 4px;
+.rem{display: flex;
+flex-direction: row;}
+
+.full{display: flex;
+  flex-direction: row;
+padding-left: 57px;}
+
+.fullimg{padding-right: 10px;}
+.remimg{padding-right: 10px;}
+
+
+
+
+.job-listing{    margin-right: 246px;
 }
-
-/* Styling for specific categories - use different color schemes for each badge */
-.category-badge.Design {
-  background-color: #f3e8ff;
-  color: #9333ea;
-}
-
-.category-badge.Software {
-  background-color: #ffe4e6;
-  color: #d61f69;
-}
-
-.category-badge.CX {
-  background-color: #dcfce7;
-  color: #15803d;
-}
-
-.category-badge.Sales {
-  background-color: #e0e7ff;
-  color: #4338ca;
-}
-
-.category-badge.Marketing {
-  background-color: #ffedd5;
-  color: #ea580c;
-}
-
-
 
 
 .job-listings-container {background-color:#ffffff;
   padding-top: 70px;
   max-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 17px;
 }
+
+
+
+.job-title{display: flex;
+flex-direction: row;
+width: 618px;
+height: 28px;}
+
+
+
+
+
+
+.vision-container2{
+  background-color: #ffffff; 
+  width: 536px;
+  height:541px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+#ourvisionheading2{ margin-left: 36px;
+  padding-top: 26px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000;
+
+}
+
+
+.ourvisionul2{color:#000000;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.fullstop2{padding-right: 15px;
+  color:#000000;
+padding-bottom: 57px;}
+
+
+.fullstop1a{padding-bottom: 38px;
+  color: #000000;
+padding-right: 14px;}
+#v2{color: #000000;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+
+.vision-container {
+  background-color: #d94f3d;
+  color: white;
+  width: 536px;
+  height:541px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-top: 23px;
+}
+
+
+#ourvisionheading{ margin-left: 36px;
+  padding-top: 26px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ffffff;
+
+}
+
+ .ourvisionul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.fullstop{padding-right: 15px;
+padding-bottom: 57px;}
+
+
+.fullstop1{padding-bottom: 38px;
+padding-right: 14px;}
+#v1 {
+  margin-bottom: 15px;
+  line-height: 1.6;
+font-weight: 600;}
+
+
+.iconandtitle{display: flex;
+flex-direction: row;}
