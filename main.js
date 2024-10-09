@@ -29,5 +29,3 @@ document.addEventListener('DOMContentLoaded', function() {
         arrowIcon2.classList.toggle('rotated');
     });
 });
-
-

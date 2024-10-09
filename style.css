@@ -150,7 +150,7 @@ font-size: 20px;
 #career1{color:#000000}
 #arrow-icon2:active{color:#C0342B}
 #arrow-icon2:hover{color:#FFB154}
-#aboutus,#aboutus1:hover{color: #FFB154;}
+#aboutus1{color: #C0342B;}
 #aboutus,#aboutus1:active{color:#C0342B;}
 .nav-link-3:hover{cursor: pointer;
   color:#FFB154;}
@@ -253,21 +253,31 @@ ul #nav-link-1{color: #FFFFFF;}
     background-color: var(--dark-midnight-blue);
 }
 
-#about-us-dropdown.show{display:block;}
 
-#arrow-icon {
-    transition: transform 0.3s ease;
+
+#nav-link-2:hover #about-us-dropdown {
+  display: block;
 }
 
-#arrow-icon.rotated {
-    transform: rotate(-90deg);
+.aboutus:hover  #about-us-dropdown{display:block}
+
+.aboutus:hover  #arrow-icon {
+  transform: rotate(90deg);
+  transition: transform 0.5s ease;
 }
 
-#arrow-icon2 {
-  transition: transform 0.3s ease;
+#nav-link-2:hover #arrow-icon {
+  transform: rotate(360deg);
 }
+ #arrow-icon2:hover{ transform: rotate(90deg);
+  transition: transform 0.5s ease;}
 
-.rotated{transform: rotate(-90deg);}
+  .aboutus:hover #arrow-icon2{ transform: rotate(360deg);
+    transition: transform 0.4s ease;}
+
+
+
+#arrow-icon2{transform:rotate(270deg) ;}
 
 
 .numbers{margin-bottom: 83px;
@@ -3021,6 +3031,7 @@ flex-direction:row;}
 padding-top: 40px;}
 
 
+#arrow-icon{transform: rotate(270deg);}
 div#OPbeginning {
   background-color: white;
 }
@@ -3327,3 +3338,8 @@ font-weight: 600;}
 
 .iconandtitle{display: flex;
 flex-direction: row;}
+
+
+
+
+
